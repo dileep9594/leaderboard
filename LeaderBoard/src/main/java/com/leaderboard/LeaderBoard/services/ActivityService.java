@@ -19,10 +19,9 @@ public class ActivityService {
         
         // Logic to handle login activity
         // Add 10 points to the user's score for logging in
-        int newScore = useractivity.getScore() + 10;
-        useractivity.setScore(newScore);  
+
         // Update user's score in the database
-        useractivityrepo.save(user);
+        
     }
 
     // Similar methods for other activity types

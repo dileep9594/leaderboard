@@ -18,7 +18,6 @@ public class UserActivity {
     private String userId;
     @DBRef
     private String activityId;
-    private Integer score ;
     private LocalDateTime timestamp;
     // Getters and setters
 }
